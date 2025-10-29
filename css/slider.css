@@ -1088,6 +1088,7 @@
 }
 
 .section-recently-viewed__slider-buttons {
+	flex: 0 0 4.5rem;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
@@ -1095,6 +1096,7 @@
 }
 
 .section-recently-viewed__slider-button {
+	width: 1.5rem;
 	flex: 0 0 1.5rem;
 	height: 1.5rem;
 	font-size: 1.125rem;
@@ -1154,3 +1156,4 @@
 }
 
 /*recently-viewed-slider style start*/
+
