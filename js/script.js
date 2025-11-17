@@ -1625,4 +1625,15 @@ if (uploadZone) {
 		imageFilesListElement.classList.remove('_active');
 		filesInfoElement.style.display = 'none';
 	});
+
+}
+
+
+// Select rating for IOS
+const isIOS = /(iPad|iPhone|iPod|MacIntel)/.test(navigator.userAgent) && !window.MSStream;
+const leaveReviewForm = document.forms.leaveReview;
+const leaveReviewFormSelect = leaveReviewForm.rating;
+
+if ( isIOS ) {
+  leaveReviewFormSelect.options[1].text = "Five stars";
 }
