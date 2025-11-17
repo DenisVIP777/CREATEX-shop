@@ -774,7 +774,7 @@ document.addEventListener('click', function (event) {
 
 
 // Select rating for IOS
-const isIOS = /(iPad|iPhone|iPod|MacIntel)/.test(navigator.userAgent) && !window.MSStream;
+const isIOS = /(iPad|iPhone|iPod|MacIntel|Mac)/.test(navigator.userAgent) && !window.MSStream;
 const leaveReviewForm = document.forms.leaveReview;
 const leaveReviewFormSelect = leaveReviewForm.rating;
 
@@ -1644,6 +1644,7 @@ if (uploadZone) {
 	});
 
 }
+
 
 
 
