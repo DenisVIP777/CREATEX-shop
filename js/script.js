@@ -773,6 +773,20 @@ document.addEventListener('click', function (event) {
 
 
 
+// Select rating for IOS
+const isIOS = /(iPad|iPhone|iPod|MacIntel)/.test(navigator.userAgent) && !window.MSStream;
+const leaveReviewForm = document.forms.leaveReview;
+const leaveReviewFormSelect = leaveReviewForm.rating;
+
+console.log(leaveReviewFormSelect.options[1]);
+
+if ( isIOS ) {
+  leaveReviewFormSelect.options[1].text = "Five stars";
+  leaveReviewFormSelect.options[2].text = "Four stars";
+}
+
+
+
 // Кастомный main select
 const mainSelect = () => {
   const elements = document.querySelectorAll('.select');
@@ -1628,12 +1642,3 @@ if (uploadZone) {
 
 }
 
-
-// Select rating for IOS
-const isIOS = /(iPad|iPhone|iPod|MacIntel)/.test(navigator.userAgent) && !window.MSStream;
-const leaveReviewForm = document.forms.leaveReview;
-const leaveReviewFormSelect = leaveReviewForm.rating;
-
-if ( isIOS ) {
-  leaveReviewFormSelect.options[1].text = "Five stars";
-}
