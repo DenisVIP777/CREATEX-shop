@@ -782,7 +782,13 @@ console.log(leaveReviewFormSelect.options[1]);
 
 if ( isIOS ) {
   leaveReviewFormSelect.options[1].text = "Five stars";
-  leaveReviewFormSelect.options[2].text = "Four stars";
+  leaveReviewFormSelect.options[2].text = "<div class=\"form-leave-review__rating rating\">",
+                                          "\t<div class=\"rating__item _icon-star\"></div>",
+                                          "\t<div class=\"rating__item _icon-star\"></div>",
+                                          "\t<div class=\"rating__item _icon-star\"></div>",
+                                          "\t<div class=\"rating__item _icon-star\"></div>",
+                                          "\t<div class=\"rating__item _icon-star-o\"></div>",
+                                          "</div>";
 }
 
 
@@ -1641,4 +1647,5 @@ if (uploadZone) {
 	});
 
 }
+
 
