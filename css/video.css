@@ -175,6 +175,7 @@
 
 .video-player__btn {
 	width: 2.5rem;
+	flex: 0 0 2.5rem;
 	height: 2.75rem;
 	display: flex;
 	align-items: center;
@@ -288,4 +289,5 @@
 .video-player__fullscreen {
 	margin-left: auto;
 }
+
 /* volume-slider style end */
