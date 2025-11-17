@@ -778,14 +778,42 @@ const isIOS = /(iPad|iPhone|iPod|MacIntel|Mac)/.test(navigator.userAgent) && !wi
 const leaveReviewForm = document.forms.leaveReview;
 const leaveReviewFormSelect = leaveReviewForm.rating;
 
-console.log(leaveReviewFormSelect.options[1]);
-
 if ( isIOS ) {
-  leaveReviewFormSelect.options[1].innerHTML = "<div>Five stars</div>";
-  leaveReviewFormSelect.options[2].text = "Four stars";
-  leaveReviewFormSelect.options[3].text = "Three stars";
-  leaveReviewFormSelect.options[4].text = "Two stars";
-  leaveReviewFormSelect.options[5].text = "One star";
+  leaveReviewFormSelect.options[1].innerHTML = `<div class="form-leave-review__rating rating">
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                </div>`;
+  leaveReviewFormSelect.options[2].innerHTML = `<div class="form-leave-review__rating rating">
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                </div>`;
+  leaveReviewFormSelect.options[3].innerHTML = `<div class="form-leave-review__rating rating">
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                </div>`;
+  leaveReviewFormSelect.options[4].innerHTML = `<div class="form-leave-review__rating rating">
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                </div>`;
+  leaveReviewFormSelect.options[5].innerHTML = `<div class="form-leave-review__rating rating">
+                                                  <div class="rating__item _icon-star"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                  <div class="rating__item _icon-star-o"></div>
+                                                </div>`;
 }
 
 
@@ -1644,6 +1672,7 @@ if (uploadZone) {
 	});
 
 }
+
 
 
 
