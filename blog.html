@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Blog</title>
+		<meta name="description" content="Краткое емкое описание текста, включающее поисковые запросы пользователей. Тег <description> должен четко и ясно описывать суть содержания, лучше избегать вводных конструкций и общих фраз. Мета-тег <description> должен быть уникальным для каждой страницы сайта.">
+		<meta name="keywords" content="ключевые фразы или слова через запятую (важно для SEO)"/>
+		<meta charset="UTF-8"/>
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+		<link rel="stylesheet" href="css/slider.css">
+		<link rel="stylesheet" href="css/animate.css">
+		<link href="css/choices.min.css" rel="stylesheet" type="text/css"/>
+		<link href="favicon.ico" rel="icon">
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__top top-header">
+					<div class="top-header__container">
+						<div data-da=".top-header__settings-and-user-accaunt, 47.99875, 1" class="top-header__contact-info header-contact-info">
+							<span>Available 24/7 at </span>
+							<a class="header-contact-info__link" href="tel:(405) 555-0128">(405) 555-0128</a>
+							<a class="header-contact-info__link-image" href="tel:(405) 555-0128"><img src="images/header/top-header/icons/phone.svg" class="header-contact-info__image" alt=""/></a>
+						</div>
+
+						<div class="top-header__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item menu__item_catalog"><a href="#" data-catalog class="menu__link menu__link_catalog">Каталог товаров<i class="menu__catalog-icon _icon-arrow-right"></i></a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Delivery & returns</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Track order</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Blog</a></li>
+									<li class="menu__item"><a href="#" class="menu__link">Contacts</a></li>
+								</ul>
+							</nav>
+						</div>
+						
+						<div class="top-header__settings-and-user-accaunt">
+							<div class="top-header__settings select-language-container">
+								<select class="top-header__select select-language">
+									<option value="inglish">Eng / $</option>
+									<option value="russian">Rus / ₽</option>
+								</select>
+							</div>
+							<a href="#popup-sign-in" class="top-header__user-account-button popup__link">
+								<div class="top-header__user-account-container-icon"><i class="top-header__user-account-icon _icon-user"></i></div>
+								<div class="top-header__user-account-content">Log in / Register</div>
+							</a>
+						</div>
+						<button type="button" class="menu__icon"><span></span></button>
+					</div>
+				</div>
+				<div class="header__body body-header">
+					<div class="body-header__container">
+						<div class="body-header__main">
+							<a href="#" class="body-header__logo">
+								<img src="images/header/body-header/logo.png" class="body-header__logo-image" alt="Logo"/>
+							</a>
+							<nav class="body-header__menu header-secondary-menu">
+								<button type="button" class="header-secondary-menu__back"><i class="header-secondary-menu__back-icon _icon-big-arrow-left"></i><span class="header-secondary-menu__back-text">Назад</span></button>
+								<ul class="header-secondary-menu__list">
+									<li class="header-secondary-menu__item"><a href="#" data-parent="1" class="header-secondary-menu__link">Women</a></li>
+									<li class="header-secondary-menu__item"><a href="#" data-parent="2" class="header-secondary-menu__link">Men</a></li>
+									<li class="header-secondary-menu__item"><a href="#" class="header-secondary-menu__link">Girls</a></li>
+									<li class="header-secondary-menu__item"><a href="#" class="header-secondary-menu__link">Boys</a></li>
+									<li class="header-secondary-menu__item"><a href="#" class="header-secondary-menu__link">Sale</a></li>
+								</ul>
+							</nav>
+							<div class="body-header__sub-menu sub-menu-catalog">
+								<button type="button" class="sub-menu-catalog__back"><i class="sub-menu-catalog__back-icon _icon-big-arrow-left"></i><span class="sub-menu-catalog__back-text">Назад</span></button>
+								<div class="sub-menu-catalog__container">
+									<div hidden data-submenu="1" class="sub-menu-catalog__block">
+										<nav class="sub-menu-catalog__block-columns">
+											<div class="sub-menu-catalog__column">
+												<ul class="sub-menu-catalog__list">
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">New collection</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Best Sellers</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Plus Size</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link sub-menu-catalog__link_active">Sale up to 70%</a></li>
+												</ul>
+											</div>
+											<div class="sub-menu-catalog__column">
+												<a href="#" class="sub-menu-catalog__category">CLOTHES</a>
+												<ul class="sub-menu-catalog__list">
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Coats</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Jackets</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Suits</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Dresses</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Cardigans & sweaters</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sweatshirts & hoodies</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">T-shirts & tops</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Pants</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Jeans</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Shorts</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Skirts</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Lingerie & nightwear</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sportswear</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Swimwear</a></li>
+												</ul>
+											</div>
+											<div class="sub-menu-catalog__column">
+												<a href="#" class="sub-menu-catalog__category">SHOES</a>
+												<ul class="sub-menu-catalog__list">
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Boots</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Flat shoes</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Heels</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sandals</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Mules</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sliders</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Slippers</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sneakers</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Leather</a></li>
+												</ul>
+											</div>
+											<div class="sub-menu-catalog__column">
+												<a href="#" class="sub-menu-catalog__category">ACCESSORIES</a>
+												<ul class="sub-menu-catalog__list">
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Bags & bagpacks</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Hats & scarves</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Hair accessories</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Belts</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Jewellery</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Watches</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sunglasses</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Purses</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Gloves</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Socks & tights</a></li>
+												</ul>
+											</div>
+										</nav>
+										<div class="sub-menu-catalog__separator"></div>
+										<div class="sub-menu-catalog__banner sub-menu-banner">
+											<div class="sub-menu-banner__container-image">
+												<img src="images/header/body-header/sub-menu-catalog/01.png" class="sub-menu-banner__image" alt=""/>
+											</div>
+											<div class="sub-menu-banner__content">
+												<h3 class="sub-menu-banner__title">Back to school. Sale up to 50%</h3>
+												<a href="#" class="sub-menu-banner__button first-button">
+													<span class="first-button__text">See offers</span>
+													<i class="first-button__icon _icon-big-arrow-right"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+
+									<div hidden data-submenu="2" class="sub-menu-catalog__block">
+										<nav class="sub-menu-catalog__block-columns">
+											<div class="sub-menu-catalog__column">
+												<a href="#" class="sub-menu-catalog__category">SHOES</a>
+												<ul class="sub-menu-catalog__list">
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Boots</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Flat shoes</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Heels</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sandals</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Mules</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sliders</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Slippers</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sneakers</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Leather</a></li>
+												</ul>
+											</div>
+											<div class="sub-menu-catalog__column">
+												<a href="#" class="sub-menu-catalog__category">ACCESSORIES</a>
+												<ul class="sub-menu-catalog__list">
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Bags & bagpacks</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Hats & scarves</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Hair accessories</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Belts</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Jewellery</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Watches</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Sunglasses</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Purses</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Gloves</a></li>
+													<li class="sub-menu-catalog__item"><a href="#" class="sub-menu-catalog__link">Socks & tights</a></li>
+												</ul>
+											</div>
+										</nav>
+										<div class="sub-menu-catalog__separator"></div>
+										<div class="sub-menu-catalog__banner sub-menu-banner">
+											<div class="sub-menu-banner__container-image">
+												<img src="images/header/body-header/sub-menu-catalog/02.jpg" class="sub-menu-banner__image" alt=""/>
+											</div>
+											<div class="sub-menu-banner__content">
+												<h3 class="sub-menu-banner__title">Stylish men's clothing. Sale up to 50%</h3>
+												<a href="#" class="sub-menu-banner__button first-button">
+													<span class="first-button__text">See offers</span>
+													<i class="first-button__icon _icon-big-arrow-right"></i>
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-header__secondary">
+							<div class="body-header__search">
+								<form action="#" class="search-header">
+									<input autocomplete="off" type="text" name="search" data-error="Ошибка" placeholder="Search for products..." class="search-header__input"/>
+									<button type="submit" class="search-header__button _icon-search"></button>
+								</form>
+							</div>
+							<div class="body-header__favorite-and-cart">
+								<a data-da=".top-header__settings-and-user-accaunt, 47.99875, 2" href="#" class="body-header__favorite header-favorite">
+									<i class="header-favorite__icon _icon-favorite"></i>
+									<div class="header-favorite__counter">2</div>
+								</a>
+								<div class="body-header__delimiter"></div>
+								<button data-da=".top-header__settings-and-user-accaunt, 47.99875, 3" class="body-header__button-open-mini-cart button-open-mini-cart">
+									<i class="button-open-mini-cart__icon _icon-cart"></i>
+									<div class="button-open-mini-cart__counter">4</div>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__bottom header-bottom">
+					<div class="header-bottom__container">
+						<div class="header-bottom__body">
+							<i class="header-bottom__icon _icon-arrow-left"></i>
+							<div class="header-bottom__content">
+								<span class="header-bottom__text">Up to 70% Off. </span>
+								<a href="#" class="header-bottom__link">Shop our latest sale styles</a>
+							</div>
+							<i class="header-bottom__icon _icon-arrow-right"></i>
+						</div>
+					</div>
+				</div>
+
+				<!-- mini-cart -->
+				<div class="header__mini-cart mini-cart">
+					<div class="mini-cart__content">
+						<div class="mini-cart__head">
+							<div class="mini-cart__title">Your cart (4)</div>
+							<button class="mini-cart__close _icon-close"></button>
+						</div>
+						<div class="mini-cart__body">
+							<ul class="mini-cart__list">
+								<li class="mini-cart__item mini-cart-product">
+									<div class="mini-cart-product__content">
+										<div class="mini-cart-product__container-image">
+											<img src="images/header/mini-cart/01.png" class="mini-cart-product__image" alt=""/>
+										</div>
+										<div class="mini-cart-product__body">
+											<div class="mini-cart-product__main">
+												<h2 class="mini-cart-product__title">Basic hooded sweatshirt in pink</h2>
+												<ul class="mini-cart-product__characteristics-list">
+													<li class="mini-cart-product__characteristics-list-item">
+														<span class="mini-cart-product__parameter">Color:</span>
+														<span class="mini-cart-product__meaning">pink</span>
+													</li>
+													<li class="mini-cart-product__characteristics-list-item">
+														<span class="mini-cart-product__parameter">Size:</span>
+														<span class="mini-cart-product__meaning">S</span>
+													</li>
+												</ul>
+											</div>
+											<div class="mini-cart-product__counter-and-price">
+												<div class="mini-cart-product__counter">
+													<input type="number" name="number-products" value="1" min="1" max="100" class="mini-cart-product__counter-input"/>
+												</div>
+												<div class="mini-cart-product__price">
+													<div class="mini-cart-product__current-price mini-cart-product__current-price_discount">$15.50</div>
+													<div class="mini-cart-product__past-price">$31.00</div>
+												</div>
+											</div>
+											<a href="" class="mini-cart-product__button-move-to-favorite">
+												<span class="mini-cart-product__text-button-move-to-favorite">Move to</span>
+												<i class="mini-cart-product__icon-button-move-to-favorite _icon-favorite"></i>
+											</a>
+										</div>
+										<button type="button" class="mini-cart-product__remove _icon-delete"></button>
+									</div>
+								</li>
+								<li class="mini-cart__item mini-cart-product">
+									<div class="mini-cart-product__content">
+										<div class="mini-cart-product__container-image">
+											<img src="images/header/mini-cart/02.png" class="mini-cart-product__image" alt=""/>
+										</div>
+										<div class="mini-cart-product__body">
+											<div class="mini-cart-product__main">
+												<h2 class="mini-cart-product__title">Black and white sport cap</h2>
+											</div>
+											<div class="mini-cart-product__counter-and-price">
+												<div class="mini-cart-product__counter">
+													<input type="number" name="number-products" value="1" min="1" max="100" class="mini-cart-product__counter-input"/>
+												</div>
+												<div class="mini-cart-product__price">
+													<div class="mini-cart-product__current-price">$18.15</div>
+												</div>
+											</div>
+											<a href="" class="mini-cart-product__button-move-to-favorite">
+												<span class="mini-cart-product__text-button-move-to-favorite">Move to</span>
+												<i class="mini-cart-product__icon-button-move-to-favorite _icon-favorite"></i>
+											</a>
+										</div>
+										<button type="button" class="mini-cart-product__remove _icon-delete"></button>
+									</div>
+								</li>
+								<li class="mini-cart__item mini-cart-product">
+									<div class="mini-cart-product__content">
+										<div class="mini-cart-product__container-image">
+											<img src="images/header/mini-cart/03.png" class="mini-cart-product__image" alt=""/>
+										</div>
+										<div class="mini-cart-product__body">
+											<div class="mini-cart-product__main">
+												<h2 class="mini-cart-product__title">Mid-rise slim cropped fit jeans</h2>
+												<ul class="mini-cart-product__characteristics-list">
+													<li class="mini-cart-product__characteristics-list-item">
+														<span class="mini-cart-product__parameter">Size:</span>
+														<span class="mini-cart-product__meaning">M</span>
+													</li>
+												</ul>
+											</div>
+											<div class="mini-cart-product__counter-and-price">
+												<div class="mini-cart-product__counter">
+													<input type="number" name="number-products" value="1" min="1" max="100" class="mini-cart-product__counter-input"/>
+												</div>
+												<div class="mini-cart-product__price">
+													<div class="mini-cart-product__current-price">$80.00</div>
+												</div>
+											</div>
+											<a href="" class="mini-cart-product__button-move-to-favorite">
+												<span class="mini-cart-product__text-button-move-to-favorite">Move to</span>
+												<i class="mini-cart-product__icon-button-move-to-favorite _icon-favorite"></i>
+											</a>
+										</div>
+										<button type="button" class="mini-cart-product__remove _icon-delete"></button>
+									</div>
+								</li>
+								<li class="mini-cart__item mini-cart-product">
+									<div class="mini-cart-product__content">
+										<div class="mini-cart-product__container-image">
+											<img src="images/header/mini-cart/04.png" class="mini-cart-product__image" alt=""/>
+										</div>
+										<div class="mini-cart-product__body">
+											<div class="mini-cart-product__main">
+												<h2 class="mini-cart-product__title">Men fashion gray shoes</h2>
+												<ul class="mini-cart-product__characteristics-list">
+													<li class="mini-cart-product__characteristics-list-item">
+														<span class="mini-cart-product__parameter">Color:</span>
+														<span class="mini-cart-product__meaning">gray</span>
+													</li>
+													<li class="mini-cart-product__characteristics-list-item">
+														<span class="mini-cart-product__parameter">Size:</span>
+														<span class="mini-cart-product__meaning">44</span>
+													</li>
+												</ul>
+											</div>
+											<div class="mini-cart-product__counter-and-price">
+												<div class="mini-cart-product__counter">
+													<input type="number" name="number-products" value="1" min="1" max="100" class="mini-cart-product__counter-input"/>
+												</div>
+												<div class="mini-cart-product__price">
+													<div class="mini-cart-product__current-price">$85.50</div>
+												</div>
+											</div>
+											<a href="" class="mini-cart-product__button-move-to-favorite">
+												<span class="mini-cart-product__text-button-move-to-favorite">Move to</span>
+												<i class="mini-cart-product__icon-button-move-to-favorite _icon-favorite"></i>
+											</a>
+										</div>
+										<button type="button" class="mini-cart-product__remove _icon-delete"></button>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="mini-cart__bottom">
+							<div class="mini-cart__total">
+								<div class="mini-cart__total-text">Subtotal:</div>
+								<div class="mini-cart__total-price">$198.65</div>
+							</div>
+							<div class="mini-cart__button-go-to-checkout secondary-button">
+								<i class="secondary-button__icon _icon-card"></i>
+								<span class="secondary-button__text">Checkout</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<main class="page">
+				<section class="section-page-head">
+					<div class="section-page-head__container">
+						<div class="section-page-head__body">
+							<div class="section-page-head__breadcrumbs breadcrumbs">
+								<ul class="breadcrumbs__list">
+									<li class="breadcrumbs__item"><a href="#" class="breadcrumbs__link-home _icon-home"></a></li>
+									<div class="breadcrumbs__sepavator _icon-arrow-right"></div>
+									<li class="breadcrumbs__item-current">Fashion blog</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section-blog">
+					<div class="section-blog__container">
+						<div class="section-blog__body blog">
+							<div class="blog__content">
+								<h1 class="blog__title main-title">Fashion blog</h1>
+								<div class="blog__articles articles">
+									<article class="articles__item blog-article">
+										<a href="#" class="blog-article__container-image">
+											<img src="images/blog/01.jpg" class="blog-article__image" alt=""/>
+										</a>
+										<div class="blog-article__add-info">
+											<a href="#" class="blog-article__category">Fashion</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__taxonomy">
+												<time datetime="" class="blog-article__date">August 24, 2020</time>
+											</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__comments-info">
+												<i class="blog-article__comments-icon _icon-comments"></i>
+												<span class="blog-article__comments-counter">No comments</span>
+											</a>
+										</div>
+										<a href="#" class="blog-article__link-title">
+											<h2 class="blog-article__title">Bag Trends for Summer 2020</h2>
+										</a>
+										<p class="blog-article__short-description">Vulputate vitae pellentesque scelerisque luctus consequat mattis pellentesque dui odio. Interdum aenean sit viverra amet,malesuada ornare sed gravida rhoncus, congue. Purus auctor nullam diam quis est hendrerit ac euismod...</p>
+									</article>
+
+									<article class="articles__item blog-article">
+										<a href="#" class="blog-article__container-image">
+											<img src="images/blog/03.jpg" class="blog-article__image" alt=""/>
+										</a>
+										<div class="blog-article__add-info">
+											<a href="#" class="blog-article__category">Celebrity style</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__taxonomy">
+												<time datetime="" class="blog-article__date">August 5, 2020</time>
+											</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__comments-info">
+												<i class="blog-article__comments-icon _icon-comments"></i>
+												<span class="blog-article__comments-counter">No comments</span>
+											</a>
+										</div>
+										<a href="#" class="blog-article__link-title">
+											<h2 class="blog-article__title">Wardrobe Essentials Everyone Should Own Today</h2>
+										</a>
+										<p class="blog-article__short-description">Mauris tincidunt sollicitudin tristique odio eget volutpat. Fringilla viverra amet, mi interdum blandit. Tellus sed morbi massa quis sed. Faucibus tincidunt magna enim ultricies fringilla at rhoncus, hac...</p>
+									</article>
+
+									<article class="articles__item blog-article">
+										<a href="#" class="blog-article__container-image">
+											<img src="images/blog/02.jpg" class="blog-article__image" alt=""/>
+										</a>
+										<div class="blog-article__add-info">
+											<a href="#" class="blog-article__category">Lifestyle</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__taxonomy">
+												<time datetime="" class="blog-article__date">July 16, 2020</time>
+											</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__comments-info">
+												<i class="blog-article__comments-icon _icon-comments"></i>
+												<span class="blog-article__comments-counter">4 comments</span>
+											</a>
+										</div>
+										<a href="#" class="blog-article__link-title">
+											<h2 class="blog-article__title">Top 10 of This Season’s Hottest Sneakers</h2>
+										</a>
+										<p class="blog-article__short-description">Sollicitudin et nec congue magna quis commodo quis luctus risus. Dolor, dignissim semper faucibus quisque massa ut enim. Turpis viverra mattis semper pellentesque facilisis. Ut id eget sagittis lectus...</p>
+									</article>
+
+									<article class="articles__item blog-article">
+										<a href="#" class="blog-article__container-image">
+											<img src="images/blog/04.jpg" class="blog-article__image" alt=""/>
+										</a>
+										<div class="blog-article__add-info">
+											<a href="#" class="blog-article__category">Fashion</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__taxonomy">
+												<time datetime="" class="blog-article__date">July 2, 2020</time>
+											</a>
+											<div class="blog-article__separator"></div>
+											<a href="#" class="blog-article__comments-info">
+												<i class="blog-article__comments-icon _icon-comments"></i>
+												<span class="blog-article__comments-counter">2 comments</span>
+											</a>
+										</div>
+										<a href="#" class="blog-article__link-title">
+											<h2 class="blog-article__title">Modern Accessories 2020: Why Simple Isn't Easy</h2>
+										</a>
+										<p class="blog-article__short-description">Tellus sed morbi massa quis sed. Faucibus tincidunt magna enim ultricies fringilla at rhoncus, hac. Sollicitudin et nec congue magna quis commodo quis luctus risus. Dolor, dignissim semper faucibus quisque massa ut enim...</p>
+									</article>
+								</div>
+								<nav class="blog__pagination blog-pagination">
+									<ul class="blog-pagination__list">
+										<li class="blog-pagination__item"><a href="#" class="blog-pagination__link _active">1</a></li>
+										<li class="blog-pagination__item"><a href="#" class="blog-pagination__link">2</a></li>
+										<li class="blog-pagination__item"><a href="#" class="blog-pagination__link">3</a></li>
+										<li class="blog-pagination__item"><a href="#" class="blog-pagination__link">4</a></li>
+									</ul>
+									<a href="#" class="blog-pagination__more">
+										<i class="blog-pagination__more-icon _icon-big-arrow-right"></i>
+									</a>
+								</nav>
+							</div>
+							<div class="blog__sitebar blog-sitebar">
+								<div class="blog-sitebar__item">
+									<div class="blog-sitebar__search blog-search">
+										<input type="text" name="blog-search" class="blog-search__input" placeholder="Search the blog..."/>
+										<button type="button" class="blog-search__button _icon-search"></button>
+									</div>
+								</div>
+
+								<div class="blog-sitebar__item">
+									<div class="blog-sitebar__categories blog-categories">
+										<div class="blog-categories__title">Blog Categories</div>
+										<ul class="blog-categories__list">
+											<li class="blog-categories__item">
+												<a href="#" class="blog-categories__category-link">
+													<div class="blog-categories__category">All</div>
+													<div class="blog-categories__counter-articles">23</div>
+												</a>
+											</li>
+											<li class="blog-categories__item">
+												<a href="#" class="blog-categories__category-link">
+													<div class="blog-categories__category">Fashion</div>
+													<div class="blog-categories__counter-articles">3</div>
+												</a>
+											</li>
+											<li class="blog-categories__item">
+												<a href="#" class="blog-categories__category-link">
+													<div class="blog-categories__category">Designers</div>
+													<div class="blog-categories__counter-articles">7</div>
+												</a>
+											</li>
+											<li class="blog-categories__item">
+												<a href="#" class="blog-categories__category-link">
+													<div class="blog-categories__category">Lifestyle</div>
+													<div class="blog-categories__counter-articles">4</div>
+												</a>
+											</li>
+											<li class="blog-categories__item">
+												<a href="#" class="blog-categories__category-link">
+													<div class="blog-categories__category">Celebrity style</div>
+													<div class="blog-categories__counter-articles">9</div>
+												</a>
+											</li>
+										</ul>
+									</div>
+								</div>
+
+								<div class="blog-sitebar__item">
+									<div class="blog-sitebar__featured-posts blog-featured-posts">
+										<div class="blog-featured-posts__title">Featured Posts</div>
+										<div class="blog-featured-posts__body">
+											<article class="blog-featured-posts__article blog-featured-post">
+												<a href="#" class="blog-featured-post__link-image">
+													<img src="images/blog/05.jpg" class="blog-featured-post__image" alt=""/>
+												</a>
+												<div class="blog-featured-post__body">
+													<a href="#" class="blog-featured-post__link-taxonomy featured-post-date">
+														<i class="featured-post-date__icon _icon-clock"></i>
+														<time datetime="" class="featured-post-date__content">July 5, 2020</time>
+													</a>
+													<a href="#" class="blog-featured-post__link-title"><h2 class="blog-featured-post__title">14 Items From End-of-Spring Sales Are Sure to Spark Joy</h2></a>
+												</div>
+											</article>
+
+											<article class="blog-featured-posts__article blog-featured-post">
+												<a href="#" class="blog-featured-post__link-image">
+													<img src="images/blog/06.jpg" class="blog-featured-post__image" alt=""/>
+												</a>
+												<div class="blog-featured-post__body">
+													<a href="#" class="blog-featured-post__link-taxonomy featured-post-date">
+														<i class="featured-post-date__icon _icon-clock"></i>
+														<time datetime="" class="featured-post-date__content">April 9, 2020</time>
+													</a>
+													<a href="#" class="blog-featured-post__link-title"><h2 class="blog-featured-post__title">Best Fashion Instagrams of the Week</h2></a>
+												</div>
+											</article>
+
+											<article class="blog-featured-posts__article blog-featured-post">
+												<a href="#" class="blog-featured-post__link-image">
+													<img src="images/blog/07.jpg" class="blog-featured-post__image" alt=""/>
+												</a>
+												<div class="blog-featured-post__body">
+													<a href="#" class="blog-featured-post__link-taxonomy featured-post-date">
+														<i class="featured-post-date__icon _icon-clock"></i>
+														<time datetime="" class="featured-post-date__content">March 12, 2020</time>
+													</a>
+													<a href="#" class="blog-featured-post__link-title"><h2 class="blog-featured-post__title">Top 10 Looks from the Venice Film Festival</h2></a>
+												</div>
+											</article>
+										</div>
+									</div>
+								</div>
+
+								<div class="blog-sitebar__item">
+									<div class="blog-sitebar__tags blog-tags">
+										<div class="blog-tags__title">Tags</div>
+										<div class="blog-tags__body">
+											<a href="#" class="blog-tags__tag">#trends</a>
+											<a href="#" class="blog-tags__tag">#inspiration</a>
+											<a href="#" class="blog-tags__tag">#designers</a>
+											<a href="#" class="blog-tags__tag">#kidsfashion</a>
+											<a href="#" class="blog-tags__tag">#streetstyle</a>
+											<a href="#" class="blog-tags__tag">#models</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+
+			<footer class="footer">
+				<div class="footer__head">
+					<div class="footer__container-head">
+						<div class="footer__content">
+							<div class="footer__navigation">
+								<div class="footer__column">
+									<div class="footer__title">HELP</div>
+									<ul class="footer__list">
+										<li class="footer__item"><a href="#" class="footer__link">Delivery & returns</a></li>
+										<li class="footer__item"><a href="#" class="footer__link">FAQ</a></li>
+										<li class="footer__item"><a href="#" class="footer__link">Track order</a></li>
+										<li class="footer__item"><a href="#" class="footer__link">Contacts</a></li>
+										<li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+									</ul>
+								</div>
+								<div class="footer__column">
+									<div class="footer__title">Shop</div>
+									<ul class="footer__list">
+										<li class="footer__item"><a href="#" class="footer__link">New arrivals</a></li>
+										<li class="footer__item"><a href="#" class="footer__link">Trending now</a></li>
+										<li class="footer__item"><a href="#" class="footer__link">Sales</a></li>
+										<li class="footer__item"><a href="#" class="footer__link">Brands</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="footer__column-contact">
+								<div class="footer__title">Get in touch</div>
+								<div class="footer__phone">
+									<span class="footer__phone-text">Call:</span>
+									<a href="tel:4055550128" class="footer__phone-number">(405) 555-0128</a>
+								</div>
+								<div class="footer__mail">
+									<span class="footer__mail-text">Email:</span>
+									<a href="mailto:hello@createx.com" class="footer__mail-link">hello@createx.com</a>
+								</div>
+								<ul class="footer__social-media-list">
+									<li class="footer__social-media-item"><a href="#" class="footer__social-media-link _icon-facebook"></a></li>
+									<li class="footer__social-media-item"><a href="#" class="footer__social-media-link _icon-instagram"></a></li>
+									<li class="footer__social-media-item"><a href="#" class="footer__social-media-link _icon-twitter"></a></li>
+									<li class="footer__social-media-item"><a href="#" class="footer__social-media-link _icon-youtube"></a></li>
+									<li class="footer__social-media-item"><a href="#" class="footer__social-media-link _icon-pinterest"></a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="footer__download-app">
+							<div class="footer__title">Download our app</div>
+							<div class="footer__download-app-links">
+								<a href="" class="footer__app-link">
+									<img src="images/footer/app-store.svg" class="footer__app-image" alt=""/>
+								</a>
+								<a href="" class="footer__app-link">
+									<img src="images/footer/google-play.svg" class="footer__app-image" alt=""/>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bottom">
+					<div class="footer__container-bottom">
+						<div class="footer__copy">
+							<span class="footer__copy-text">© All rights reserved. Made with</span>
+							<i class="footer__copy-icon _icon-favorite"></i>
+							<span class="footer__copy-text">by Createx Studio</span>
+						</div>
+						<button type="button" class="footer__button-go-to-top">Go to top</button>
+					</div>
+				</div>
+			</footer>
+
+			<div id="popup-sign-in" class="popup popup_sign-in">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#header" class="popup__close close-popup _icon-close"></a>
+						<div class="popup__main-content">
+							<div class="popup__title">Sign in</div>
+							<div class="popup__description">Sign in to your account using email and password provided during registration.</div>
+							<form action="#" name="signIn" class="popup__form form-sign-in-or-register">
+								<div class="form-sign-in-or-register__item">
+									<label for="" class="form-sign-in-or-register__label">Email</label>
+									<input type="text" class="form-sign-in-or-register__input" placeholder="Your working email"/>
+								</div>
+								<div class="form-sign-in-or-register__item">
+									<label for="" class="form-sign-in-or-register__label">Password</label>
+									<div class="form-sign-in-or-register__password">
+										<input type="password" name="password" class="form-sign-in-or-register__password-input" placeholder="Your password"/>
+										<button type="button" name="passwordButton" class="form-sign-in-or-register__password-button _icon-eye _eye-slash"></button>
+									</div>
+								</div>
+								<div class="form-sign-in-or-register__additional-options">
+									<div class="form-sign-in-or-register__checkbox checkbox">
+										<input id="signed-in" type="checkbox" name="signed-in" class="checkbox__input">
+										<label for="signed-in" class="checkbox__label">Keep me signed in</label>
+									</div>
+									<a href="#" class="form-sign-in-or-register__forgot-password-link">Forgot password?</a>
+								</div>
+								<button class="form-sign-in-or-register__button main-button">Sign in</button>
+							</form>
+							<div class="popup__info-about-log-in-or-register info-about-log-in-or-register">
+								<span class="info-about-log-in-or-register__text">Don't have an account?</span>
+								<a href="#popup-sign-up" class="info-about-log-in-or-register__link popup__link">Sign up</a>
+							</div>
+						</div>
+						<div class="popup__bottom">
+							<div class="popup__sign-in-social-media sign-in-social-media">
+								<div class="sign-in-social-media__description">Or sign in with</div>
+								<ul class="sign-in-social-media__list">
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-facebook"></a></li>
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-google"></a></li>
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-twitter"></a></li>
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-linkedin"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div id="popup-sign-up" class="popup popup_sign-up">
+				<div class="popup__body">
+					<div class="popup__content">
+						<a href="#header" class="popup__close close-popup _icon-close"></a>
+						<div class="popup__main-content">
+							<div class="popup__title">Sign up</div>
+							<div class="popup__description">Registration takes less than a minute but gives you full control over your orders.</div>
+							<form action="#" name="signUp" class="popup__form form-sign-in-or-register">
+								<div class="form-sign-in-or-register__item">
+									<label for="" class="form-sign-in-or-register__label">Full Name</label>
+									<input type="text" class="form-sign-in-or-register__input" placeholder="Your full name"/>
+								</div>
+								<div class="form-sign-in-or-register__item">
+									<label for="" class="form-sign-in-or-register__label">Email</label>
+									<input type="text" class="form-sign-in-or-register__input" placeholder="Your working email"/>
+								</div>
+								<div class="form-sign-in-or-register__item">
+									<label for="" class="form-sign-in-or-register__label">Password</label>
+									<div class="form-sign-in-or-register__password">
+										<input type="password" class="form-sign-in-or-register__password-input" placeholder="Your password"/>
+										<button type="button" class="form-sign-in-or-register__password-button _icon-eye _eye-slash"></button>
+									</div>
+								</div>
+								<div class="form-sign-in-or-register__item">
+									<label for="" class="form-sign-in-or-register__label">Confirm Password</label>
+									<div class="form-sign-in-or-register__password">
+										<input type="password" class="form-sign-in-or-register__password-input" placeholder="Your password"/>
+										<button type="button" class="form-sign-in-or-register__password-button _icon-eye _eye-slash"></button>
+									</div>
+								</div>
+								<div class="form-sign-in-or-register__additional-options">
+									<div class="form-sign-in-or-register__checkbox checkbox">
+										<input id="remember-me" type="checkbox" name="remember-me" class="checkbox__input">
+										<label for="remember-me" class="checkbox__label">Remember me</label>
+									</div>
+								</div>
+								<button class="form-sign-in-or-register__button main-button">Sign up</button>
+							</form>
+							<div class="popup__info-about-log-in-or-register info-about-log-in-or-register">
+								<span class="info-about-log-in-or-register__text">Already have an account?</span>
+								<a href="#popup-sign-in" class="info-about-log-in-or-register__link popup__link">Sign in</a>
+							</div>
+						</div>
+						<div class="popup__bottom">
+							<div class="popup__sign-in-social-media sign-in-social-media">
+								<div class="sign-in-social-media__description">Or sign in with</div>
+								<ul class="sign-in-social-media__list">
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-facebook"></a></li>
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-google"></a></li>
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-twitter"></a></li>
+									<li class="sign-in-social-media__item"><a href="#" class="sign-in-social-media__link _icon-linkedin"></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--Подключаем jQuery.-->
+		<script src="js/jquery-3.6.0.min.js"></script>
+
+		<!--Подключаем слайдер Swiper-->
+		<script src="js/swiper-bundle.min.js"></script>
+
+		<!--Подключаем анимации wow.js-->
+		<script src="js/wow.min.js"></script>
+        <script src="js/wow.js"></script>
+
+		<!--Кастомный селект-->
+		<script src="js/choices.min.js"></script>
+
+		<!--Ползунки-->
+		<script src="js/nouislider.js"></script>
+
+		<!--Подключаем файл скриптов.-->
+		<script src="js/script.js"></script>
+	</body>
+</html>
