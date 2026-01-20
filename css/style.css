@@ -3659,6 +3659,7 @@ body.lock {
 /*section-popular-categories style start*/
 .section-popular-categories {
 	margin: 0px 0px 11.25rem 0px;
+	overflow: hidden;
 }
 @media (max-width:78.875em) {
 	.section-popular-categories {
@@ -15555,4 +15556,5 @@ a.featured-post-date {
 		opacity: 1;
 	}
 }
+
 /*footer style end*/
