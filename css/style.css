@@ -1238,8 +1238,8 @@ body._lock {
 @media (max-width:47.99875em) {
 	.button-open-mini-cart__counter {
 		position: absolute;
-		top: -1px;
-		right: -10px;
+		top: -0.0625rem;
+		right: -0.625rem;
 		border-radius: 50%;
 		font-size: 0.75rem;
 		font-weight: 400;
@@ -15558,3 +15558,4 @@ a.featured-post-date {
 }
 
 /*footer style end*/
+
