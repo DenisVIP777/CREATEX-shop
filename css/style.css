@@ -1162,8 +1162,8 @@ body._lock {
 @media (max-width:47.99875em) {
 	.header-favorite__counter {
 		position: absolute;
-		top: -1px;
-		right: -10px;
+		top: -0.0625rem;
+		right: -0.625rem;
 		color: var(--white);
 		background-color: var(--secondary-green-color);
 		border-radius: 50%;
@@ -15558,4 +15558,5 @@ a.featured-post-date {
 }
 
 /*footer style end*/
+
 
